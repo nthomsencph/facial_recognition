@@ -6,6 +6,7 @@ def video_detect(x):
 
     face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     cap = cv2.VideoCapture(x)
+    
     cap.set(3,640) # set Width
     cap.set(4,480) # set Height
 
