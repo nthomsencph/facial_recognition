@@ -15,6 +15,3 @@ def ext_ele (img_path = ".\media\cards.jpg"):
     cv2.waitKey(0)
 
 
-ext_ele()
-
-
